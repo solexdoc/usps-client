@@ -1,0 +1,36 @@
+{
+  "name":        "solex/usps-client",
+  "type":        "library",
+  "description": "PHP wrapper for USPS Web Tools API",
+  "keywords":    ["usps", "api"],
+  "license":     "MIT",
+  "authors":     [
+    {
+      "name":     "Vincent Gabriel",
+      "homepage": "http://vadimg.com",
+      "role":     "Developer"
+    },
+    {
+      "name": "Alexander Reiff",
+      "role": "Developer"
+    },
+    {
+      "name": "Ryan Hayle",
+      "role": "Developer"
+    },
+    {
+      "name": "Sylvain Cyr (Solex)",
+      "role": "Developer"
+    }
+  ],
+  "require":     {
+    "php": ">=7.4",
+    "ext-curl": "*",
+    "jms/serializer": "^3.8"
+  },
+  "autoload":    {
+    "psr-4": {
+      "USPS\\": "src/"
+    }
+  }
+}
