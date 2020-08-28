@@ -1,0 +1,7 @@
+.idea/
+.DS_Store
+composer.lock
+vendor/
+demos/*private*.php
+demos/output/*.*
+demos/pdfs/
