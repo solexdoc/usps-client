@@ -350,7 +350,7 @@ class EvsLabel extends USPSBase
      * @var string|null
      * @Serializer\XmlElement(cdata=false)
      */
-    private ?string $ReceiptOption = null;
+    private ?string $ReceiptOption = "None";
     /**
      * @var string
      * @Serializer\XmlElement(cdata=false)
